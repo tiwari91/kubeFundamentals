@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: nginx-shankar-dry-run
+    method: test
+    another: label
+  name: nginx-shankar-dry-run
+spec:
+  containers:
+  - image: nginx
+    name: nginx-shankar-dry-run
